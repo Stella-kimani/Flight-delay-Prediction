@@ -68,12 +68,19 @@ Build a predictive model (Catboost Regressor)
 
 
 Some additional features like ratio of airport capacity and Tunisia's population can also be helpful
+
 High level feature on departure time like 'early morning','morning','afternoon','evening','night' can be created.
+
 Mean encoding of Categorical variables with smoothing can also be important where categorical values are large in number
+
 Binning less occurring of values for some categorical variables
+
 Flight direct or connecting
+
 Removing Bias from dataset like some delays are unpredictable like delay eg Weather uncertainity
+
 Hyperparameter Tuning can also be performed but as of now hardware resource (less computation power) is constraint.
+
 Ensemble, Stacking techniques can also be experimented to improve results.
 
 
